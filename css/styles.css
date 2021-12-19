@@ -1,0 +1,30 @@
+html, body {
+    margin: 0px;
+}
+
+section {
+    height: 50vh;
+    position: relative;
+    text-align: center;
+}
+
+section p {
+    position: absolute;
+    width: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section.parallaxBackground:nth-child(2) {
+    background-image: url("../img/motorcycle-portrait.jpg");
+}
+
+section.parallaxBackground:nth-child(4) {
+    background-image: url("../img/biker-dark-motorcycle-3371x2160-1480.jpg");
+}
+
+section.parallaxBackground {
+    background-position: center;
+    background-attachment: fixed;
+}
